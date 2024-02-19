@@ -1,0 +1,56 @@
+List of daywise topics covered:
+
+Day 1: INTRODUCTION
+1. Introduction:
+    - What is Vue JS?
+    - Need of Vue JS
+    - How to use?
+2. Prerequisites
+    - HTML, CSS and Basic JavaScript
+3. Basic Setup for Vue JS
+    - Explaination on JavaScript(basic), Node JS (basic),  npm,
+        and Package.json and Package-lock.json (please refer packageVersion.txt file in same folder)
+    - Creating an application using create-vue
+    - Directory structure walk through
+
+------------------------------------------------------------------------------------------------------------------
+
+Day 2: VUE JS FUNDAMENTALS PART-1
+
+1. Options vs Composition style
+
+2. Template Syntax & Reactivity (declaring state)
+    - declaring variables inside state property for Options style
+    - use "ref" function for Composition style
+    - Text interpolation (v-text)
+    - HTML attributes binding & shorthand syntax
+    - Dynamically Binding Multiple Attributes
+    - Using JavaScript Expressions
+    - Calling Functions inside Template
+
+------------------------------------------------------------------------------------------------------------------
+
+Day 3: VUE JS FUNDAMENTALS PART-2
+
+1. Basic Directives
+    - v-text
+    - v-html
+    Conditional Rendering:
+    - v-if​
+    - v-else​
+    - v-else-if​
+    - v-show​
+    Loop:
+    - v-for
+
+2. Computed Properties
+
+3. CSS class and style binding
+
+------------------------------------------------------------------------------------------------------------------
+
+Day 4: ASSIGNMENT REVIEW AND QA SESSION ON TOPICS COVERED TILL NOW
+
+Assignment:
+ - Create and scaffold vue app and create a list of users and print the list and use all of the Directives
+   covered till now
