@@ -1,15 +1,24 @@
 <template>
+  <div>
+    <div class="header d-flex align-items-center mb-16">
+      <!-- <SideMenu /> -->
+      <div class="header-right">
+        <router-link to="/form">Form</router-link>
+        <router-link to="/">Home</router-link>
+        <router-link to="/users">Users</router-link>
+      </div>
+    </div>
+    <RouterView />
+  </div>
 </template>
 
 <script setup>
-import { ref } from "vue";
+import SideMenu from "@/components/common-components/SideMenuHeader.vue"
 </script>
 
 
 
-
-
-<style scoped>
+<style>
 .pink-user-card {
   padding: 10px;
   border: 2px solid;
@@ -27,15 +36,69 @@ import { ref } from "vue";
   border-color: blue;
   margin-bottom: 10px;
 }
+* {box-sizing: border-box;}
 
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 10px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
 .d-flex {
   display: flex;
 }
-
 .justify-content-between {
   justify-content: space-between;
 }
-
+.align-items-center {
+  align-items: center;
+}
 .myClass {
   margin-left: 10px;
 }
@@ -43,7 +106,6 @@ header {
   line-height: 1.5;
   max-height: 100vh;
 }
-
 .logo {
   display: block;
   margin: 0 auto 2rem;
