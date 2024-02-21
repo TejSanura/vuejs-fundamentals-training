@@ -9,14 +9,26 @@
       <div v-html="htmlContent"></div>
     </div> -->
 
-    <Alert />
+    <Alert>
+      <template #slot1>
+        <h4>This is H4 title</h4>
+      </template>
+      <template #slot2>
+        <ul>
+          <li>List item 1</li>
+          <li>List item 2</li>
+          <li>List item 3</li>
+        </ul>
+      </template>
+    </Alert>
+
     <UserCard
       v-for="(user, index) in computedUsers" :key="index"
-      :first-name="user.firstName"
-      :last-name="user.lastName"
+      :firstName="user.firstName"
+      :lastName="user.lastName"
       :gender="user.gender"
       :email="user.email"
-      :image-url="user.image"
+      :imageUrl="user.image"
     />
   </div>
 </template>
@@ -37,7 +49,7 @@ const computedUsers = computed(() => {
     return user
   })
   arr = arr.filter(user => {
-    if (user.gender === "male") {
+    if (user.gender === "female") {
       return user
     }
   })

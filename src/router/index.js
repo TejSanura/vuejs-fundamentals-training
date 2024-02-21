@@ -20,6 +20,11 @@ const router = createRouter({
       component: () => import('../views/Users.vue')
     },
     {
+      path: '/female-users',
+      name: 'femaleUsers',
+      component: () => import('../views/FemaleUsers.vue')
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting

@@ -5,8 +5,10 @@ Day 1: INTRODUCTION
     - What is Vue JS?
     - Need of Vue JS
     - How to use?
+
 2. Prerequisites
     - HTML, CSS and Basic JavaScript
+
 3. Basic Setup for Vue JS
     - Explaination on JavaScript(basic), Node JS (basic),  npm,
         and Package.json and Package-lock.json (please refer packageVersion.txt file in same folder)
@@ -54,3 +56,29 @@ Day 4: ASSIGNMENT REVIEW AND QA SESSION ON TOPICS COVERED TILL NOW
 Assignment:
  - Create and scaffold vue app and create a list of users and print the list and use all of the Directives
    covered till now
+
+------------------------------------------------------------------------------------------------------------------
+
+Day 5: FORM HANDLING, LIFECYLE HOOKS, TWO WAY DATA Binding
+
+1. Lifecycle hooks
+    Mostly used Lifecycle hooks:
+    - onBeforeMount
+    - onMounted
+    - onUpdated
+    - onBeforeUnmount
+    - onUnmounted
+
+2. Form Input bindings & Event handling & Two way data binding
+
+3. Watcher
+
+4. Template refs
+
+------------------------------------------------------------------------------------------------------------------
+
+Day 6: COMPONENTS
+
+1. Components
+
+2. Slots

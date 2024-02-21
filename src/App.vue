@@ -5,7 +5,8 @@
       <div class="header-right">
         <router-link to="/form">Form</router-link>
         <router-link to="/">Home</router-link>
-        <router-link to="/users">Users</router-link>
+        <router-link to="/users">Male Users</router-link>
+        <router-link to="/female-users">Female Users</router-link>
       </div>
     </div>
     <RouterView />
