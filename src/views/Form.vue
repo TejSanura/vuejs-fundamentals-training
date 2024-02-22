@@ -54,6 +54,9 @@
 <script setup>
 import { ref, watch, onMounted, onBeforeUnmount } from "vue";
 
+import { useRoute } from "vue-router";
+
+const route = useRoute();
 //States
 const myUserNameRef = ref(null);
 const isButtonDisabled = ref(true);
@@ -73,6 +76,7 @@ const onFormSubmit = () => {
 
 //Events
 onMounted(() => {
+  console.log(route.meta)
   myUserNameRef.value.focus();
   myTime.value = setInterval(() => {
     timer.value = timer.value + 1;

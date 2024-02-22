@@ -13,12 +13,6 @@
   </div>
 </template>
 
-<script setup>
-import SideMenu from "@/components/common-components/SideMenuHeader.vue"
-</script>
-
-
-
 <style>
 .pink-user-card {
   padding: 10px;

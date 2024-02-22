@@ -17,6 +17,7 @@
       :gender="user.gender"
       :email="user.email"
       :image-url="user.image"
+      :id="user.id"
     />
   </div>
 </template>

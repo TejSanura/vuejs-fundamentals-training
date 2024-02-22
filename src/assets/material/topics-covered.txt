@@ -1,3 +1,6 @@
+VUE JS DOCS: https://vuejs.org/
+VUE JS ROUTER DOCS: https://router.vuejs.org/
+
 List of daywise topics covered:
 
 Day 1: INTRODUCTION
@@ -77,8 +80,33 @@ Day 5: FORM HANDLING, LIFECYLE HOOKS, TWO WAY DATA Binding
 
 ------------------------------------------------------------------------------------------------------------------
 
-Day 6: COMPONENTS
+Day 6: COMPONENTS & slots
 
 1. Components
 
 2. Slots
+
+------------------------------------------------------------------------------------------------------------------
+
+Day 7: ROUTERS
+
+1. Vue JS Router
+    - Router View
+    - Navigating using router links
+    - Navigating using programatics navigation
+    - Passing path parameters
+    - Passing query parameters
+    - Navigation guards and metadata
+
+------------------------------------------------------------------------------------------------------------------
+
+ASSIGNMENT:
+
+1. Create an Vue App. It should also have Vue JS router installed.
+2. App will have following pages:
+    - Login Page
+    - Dashboard or Home Page
+    - Users List
+    - User Detail Page to load single user detail from the id captured from url.
+    - Navigation Gaurd to redirect user to login page if any token is not available in browser's
+    local storage

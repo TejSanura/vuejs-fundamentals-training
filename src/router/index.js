@@ -12,7 +12,10 @@ const router = createRouter({
     {
       path: '/form',
       name: 'form',
-      component: () => import('../views/Form.vue')
+      component: () => import('../views/Form.vue'),
+      meta: {
+        isAuthRequired: true
+      }
     },
     {
       path: '/users',
@@ -23,6 +26,16 @@ const router = createRouter({
       path: '/female-users',
       name: 'femaleUsers',
       component: () => import('../views/FemaleUsers.vue')
+    },
+    {
+      path: '/user-detail/:id',
+      name: 'userDetail',
+      component: () => import('../views/UserDetail.vue')
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import('../views/Login.vue')
     },
     {
       path: '/about',
