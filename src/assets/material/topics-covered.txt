@@ -25,8 +25,8 @@ Day 2: VUE JS FUNDAMENTALS PART-1
 1. Options vs Composition style
 
 2. Template Syntax & Reactivity (declaring state)
-    - declaring variables inside state property for Options style
-    - use "ref" function for Composition style
+    - Declaring variables inside state property for Options style
+    - Use "ref" function for Composition style
     - Text interpolation (v-text)
     - HTML attributes binding & shorthand syntax
     - Dynamically Binding Multiple Attributes
@@ -74,13 +74,13 @@ Day 5: FORM HANDLING, LIFECYLE HOOKS, TWO WAY DATA Binding
 
 2. Form Input bindings & Event handling & Two way data binding
 
-3. Watcher
+3. Watchers
 
 4. Template refs
 
 ------------------------------------------------------------------------------------------------------------------
 
-Day 6: COMPONENTS & slots
+Day 6: COMPONENTS & SLOTS
 
 1. Components
 
